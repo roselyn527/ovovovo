@@ -1,0 +1,84 @@
+.EPL {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url('premier league.jpeg') ;
+    background-size: cover; /* Adjust image to cover the entire screen */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center; /* Center the image */
+}
+.teamBG{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+.container {
+    display: flex; /* Use flex layout */
+    /*align-items: center; /* Align items vertically in the center */
+    gap: 10px; }
+img {
+    width: 40px; /* Set the desired width */
+    height: 40px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image fits the dimensions */
+    border-radius: 10%; /* Makes the image round */
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+button {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    transition: bottom 0.3s ease;
+}
+.footer:hover {
+    bottom: 0; /* Slides the footer into view when hovered */
+}
+.notlogo{
+    width: 100px; /* Set the desired width */
+    height: 100px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image fits the dimensions */
+    border-radius: 10%; 
+}
